@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./img/london-3833039_1280.jpg) center/cover;
+  flex-direction: column;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+#container {
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 20px;
+  padding: 70px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+h1 {
+  font-size: 2em;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+#solde {
+  text-align: center;
+  font-size: 1.3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+#montant {
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #4b4b4b;
+  background-color: transparent;
+  text-align: center;
+  outline: none;
+}
+::placeholder {
+  color: #4b4b4b;
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+#boxButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #4b4b4b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+}
